@@ -1,0 +1,3 @@
+FETCHACTION = {
+	println "Executing job1..."
+}
