@@ -68,7 +68,7 @@ class Terracotta_Prototype{
 			schedProp.setProperty("org.quartz.threadPool.threadPriority", "5") 
 			schedProp.setProperty("org.quartz.jobStore.misfireThreshold", "60000") 
 			schedProp.setProperty("org.quartz.jobStore.class", "org.terracotta.quartz.TerracottaJobStore") 
-			schedProp.setProperty("org.quartz.jobStore.tcConfigUrl", "10.0.1.153:9510") 
+			schedProp.setProperty("org.quartz.jobStore.tcConfigUrl", "localhost:9510") 
 			// schedProp.setProperty("org.quartz.scheduler.classLoadHelper.class", "org.quartz.simpl.ThreadContextClassLoadHelper") 
 			// schedProp.setProperty("org.quartz.scheduler.classLoadHelper.class", "org.quartz.simpl.InitThreadContextClassLoadHelper") 
 			schedProp.setProperty("org.quartz.scheduler.classLoadHelper.class", "org.quartz.simpl.LoadingLoaderClassLoadHelper") 
